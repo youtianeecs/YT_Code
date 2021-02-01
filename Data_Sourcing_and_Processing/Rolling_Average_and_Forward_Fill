@@ -29,6 +29,4 @@ df.sort_values(by=['date'], inplace = True, acending = True)
 for cocc in df['CC'].unique():
     df[df['cc'] == cocc] = df[df['cc'] == cocc].ffill()
 
-#%%
-# Resample technique using bootstrap
-# In machine learning 
+#%% 
